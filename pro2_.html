@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+.menu-section {
+    margin-bottom: 40px;
+}
+
+.menu-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #333;
+}
+
+.menu-item .price {
+    color: #007BFF;
+    font-size: 18px;
+}
+
+.menu-item .description {
+    margin-top: 5px;
+    color: #777;
+    font-size: 16px;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .menu-section h2 {
+        font-size: 20px;
+    }
+
+    .menu-item h3 {
+        font-size: 18px;
+    }
+
+    .menu-item .price {
+        font-size: 16px;
+    }
+
+    .menu-item .description {
+        font-size: 14px;
+    }
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurant Menu</h1>
+        
+        <div class="menu-section">
+            <h2>Starters</h2>
+            <div class="menu-item">
+                <h3>Caesar Salad</h3>
+                <p class="price">$8.99</p>
+                <p class="description">Crisp romaine lettuce, Caesar dressing, croutons, and parmesan cheese.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Bruschetta</h3>
+                <p class="price">$6.99</p>
+                <p class="description">Grilled bread topped with diced tomatoes, garlic, and basil.</p>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p class="price">$18.99</p>
+                <p class="description">Fresh salmon fillet grilled to perfection, served with a side of vegetables.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Spaghetti Carbonara</h3>
+                <p class="price">$14.99</p>
+                <p class="description">Classic Italian pasta with pancetta, eggs, and parmesan cheese.</p>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <h3>Tiramisu</h3>
+                <p class="price">$5.99</p>
+                <p class="description">Layers of coffee-soaked ladyfingers and mascarpone cheese, dusted with cocoa.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Cheesecake</h3>
+                <p class="price">$6.99</p>
+                <p class="description">Rich and creamy cheesecake served with a strawberry topping.</p>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Beverages</h2>
+            <div class="menu-item">
+                <h3>Coffee</h3>
+                <p class="price">$2.99</p>
+                <p class="description">Freshly brewed coffee.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Orange Juice</h3>
+                <p class="price">$3.99</p>
+                <p class="description">Freshly squeezed orange juice.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
